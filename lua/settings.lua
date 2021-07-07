@@ -1,5 +1,4 @@
 ---  HELPERS  ---
-
 local cmd = vim.cmd
 local opt = vim.opt
 
@@ -28,6 +27,7 @@ opt.guifont = "monospace:h17" -- the font used in graphical neovim applications
 opt.hidden = O.hidden_files -- required to keep multiple buffers and open multiple buffers
 opt.hlsearch = O.hl_search -- highlight all matches on previous search pattern
 opt.ignorecase = O.ignore_case -- ignore case in search patterns
+opt.scrolloff = 8;
 opt.mouse = "a" -- allow the mouse to be used in neovim
 opt.pumheight = 10 -- pop up menu height
 opt.scrolloff = O.scrolloff -- minimal number of screen lines to keep above and below the cursor
